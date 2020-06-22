@@ -1,4 +1,4 @@
-# fsc-demo-pack
+# FSC ADK
 
 We have cleaned up extra metadata which is not required for setting up basic FSC ADK. Following is what you will get in this repo:
 - Scratch org
