@@ -1,32 +1,20 @@
-Instructions to Run the Scripts:
+# fsc-demo-pack
 
-1) Log into your Salesforce DevHub
-    * sfdx force:auth:web:login
+We have cleaned up extra metadata which is not required for setting up basic FSC ADK. Following is what you will get in this repo:
+- Scratch org
+- FSC package and extension installation
+- Standard Permission set assignmment
+- Optional Permission set assignment for data load script
 
-2) Clone the repo: 
-    * git clone https://github.com/Vchalem/fsc-demo-pack.git
-    
-3) Change your directory to where the repo is: 
-    * cd fsc-demo-pack
+You can run orgInit.sh for above settings. 
 
-4) In finder: Go to the repo fsc-demo-pack > go to the config folder > Open the config.sh file and edit: 
-   * Set the variable “devhub” at the beginning of the script to point to your devhub alias
-      * (To set an alias for your devhub use this command: sfdx force:alias:set YourAlias=username@example.com)
-   * Set the variable "markScratchOrgForDeletion"
-      * 0=existing scratch org in your devhub will not be deleted
-      * 1=existing scratch org in your devhub will be deleted
-   * Set the variables for the install packages to point to the current release for the FSC Packages you are installing 
-  
+## Data Load
 
-5) Open the orgInit.sh script and identify which of the scripts you want to run
-      * By default they are all set =1 so that they will all run consecutively  
+If you are intersted in sample data too then we can have created some data load using a new plugin: https://github.com/forcedotcom/SFDX-Data-Move-Utility/wiki.
 
-6) Run the orgInit.sh script
-   * Type "./orgInit.sh", press enter and it will open newly created scratch org
-   * hit enter
+If interested, you can run orgInitAndData.sh for an extra command of data (or you can run it manually). Currently, you get some promots where you need to answer "y" . We have an open feature request with the developer to change default option to "y" (or allow us to change default option).
 
-All commands together (after you update DevHub in config/config.sh)
-```
-git clone https://github.com/Vchalem/fsc-demo-pack.git
-cd fsc-demo-pack.
-./orgInit.sh
+Data is stored in CSV files in https://github.com/Vchalem/fsc-demo-pack/tree/DataLoad/data/sfdmu. Data was extracted from another org and will be imported using https://github.com/Vchalem/fsc-demo-pack/blob/DataLoad/data/sfdmu/export.json.
+
+You can read more options for that plugin at plugin's Wiki page.
+

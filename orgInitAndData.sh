@@ -9,7 +9,7 @@ sfdx force:package:install --package 04t1E000000cmtN -w 20
 #Has all fieldsets for Lightning pages like Financial Account tab on Account
 sfdx force:package:install --package 04t1E000001Iql5 -w 20
 #FSC Extn Commercial Banking* 
-#Requires more dashboards
+#Requires higher dashboard limit
 #sfdx force:package:install --package 04t80000000lTrZ -w 20
 #FSC Extn Retail Banking
 #sfdx force:package:install --package 04t80000000lTp4 -w 20
@@ -24,13 +24,19 @@ sfdx force:source:push
 sfdx force:user:permset:assign -n FinancialServicesCloudStandard
 #This permission set is for data load as some permissions are not assigned yet
 #You can remove this after data load
-#sfdx force:user:permset:assign -n FSC_DataLoad_Custom
+sfdx force:user:permset:assign -n FSC_DataLoad_Custom
 
 
+#SFDX DMU plugin: https://github.com/forcedotcom/SFDX-Data-Move-Utility/wiki
+#Data Extract from existing org; if needed
+#sfdx sfdmu:run --sourceusername FSCTrialOrg --targetusername csvfile -p data/sfdmu/
+
+#data load
+#May get a prompt while loading: Say "y"
+sfdx sfdmu:run --sourceusername csvfile --targetusername FSCADK2 -p data/sfdmu/
 
 #Send user password reset email
 sfdx force:apex:execute -f config/setup.apex
 
 
 sfdx force:org:open
-
