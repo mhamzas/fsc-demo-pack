@@ -33,8 +33,8 @@ sfdx force:user:permset:assign -n FSC_DataLoad_Custom
 
 #data load
 #May get a prompt while loading: Say "y"
-sfdx sfdmu:run --sourceusername csvfile --targetusername FSCADK2 -p data/sfdmu/
-
+#"yes" command can be used to reply to those prompts; https://www.computerhope.com/unix/yes.htm
+yes | sfdx sfdmu:run --sourceusername csvfile --targetusername FSCADK2 -p data/sfdmu/
 #Send user password reset email
 sfdx force:apex:execute -f config/setup.apex
 
