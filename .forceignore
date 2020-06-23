@@ -21,9 +21,6 @@
 # helloWorld/main/default/HelloWorld.cls
 ################################################################################
 
-# Ignore all .md files (like README.md)
-**.md
-**profiles
 **settings
 AppSwitcher.appMenu
 

@@ -24,6 +24,7 @@ sfdx force:source:push
 sfdx force:user:permset:assign -n FinancialServicesCloudStandard
 #This permission set is for data load as some permissions are not assigned yet
 #You can remove this after data load
+#Data load instructions are in orgInitAndData.sh
 #sfdx force:user:permset:assign -n FSC_DataLoad_Custom
 
 
