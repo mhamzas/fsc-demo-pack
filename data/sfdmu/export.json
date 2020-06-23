@@ -1,10 +1,5 @@
 {
     "objects": [
-        {
-            "query": "SELECT TimeZone, Name, Description FROM OperatingHours",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
 
         {
             "query": "SELECT all FROM Contact",
@@ -42,34 +37,9 @@
             "externalId": "Name"
         },
         {
-            "query": "SELECT all FROM Lead",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM Location",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM BusinessMilestone",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
             "query": "SELECT all FROM Case",
             "operation": "Upsert",
             "externalId": "Subject"
-        },
-        {
-            "query": "SELECT all FROM FinServ__ChargesAndFees__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM FinServ__ReciprocalRole__c",
-            "operation": "Upsert",
-            "externalId": "Name"
         },
         {
             "query": "SELECT all FROM FinServ__Securities__c",
@@ -82,22 +52,7 @@
             "externalId": "Name"
         },
         {
-            "query": "SELECT all FROM FinServ__IdentificationDocument__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM FinServ__AccountAccountRelation__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
             "query": "SELECT all FROM FinServ__FinancialAccount__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM FinServ__Education__c",
             "operation": "Upsert",
             "externalId": "Name"
         },
@@ -112,52 +67,12 @@
             "externalId": "Name"
         },
         {
-            "query": "SELECT all FROM FinServ__BillingStatement__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM FinServ__Employment__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM FinServ__ContactContactRelation__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
             "query": "SELECT all FROM FinServ__AssetsAndLiabilities__c",
             "operation": "Upsert",
             "externalId": "Name"
         },
         {
-            "query": "SELECT all FROM FinServ__Card__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM FinServ__Alert__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM FinServ__LifeEvent__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
             "query": "SELECT all FROM FinServ__Revenue__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM FinServ__FinancialAccountTransaction__c",
-            "operation": "Upsert",
-            "externalId": "Name"
-        },
-        {
-            "query": "SELECT all FROM FinServ__PolicyPaymentMethod__c",
             "operation": "Upsert",
             "externalId": "Name"
         },
