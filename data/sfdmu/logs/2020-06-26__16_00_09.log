@@ -1,0 +1,8 @@
+
+[16:00:09.713] {"Running version":"3.4.16"}
+
+[16:00:10.360] Connecting to FSCTrialOrg using SFDX CLI...
+[16:00:45.369] Successfully connected to FSCTrialOrg.
+[16:00:45.464][ERROR] Command initialization error: Malformed select query for the sObject : SELECT Id,RecordTypeId,Name,IsDeleted,MasterRecordId,LastName,FirstName,Salutation,Title,Company,Street,City,State,PostalCode,Country,Latitude,Longitude,GeocodeAccuracy,Address,Phone,MobilePhone,Fax,Email,Website,PhotoUrl,Description,LeadSource,Status,Industry,Rating,AnnualRevenue,NumberOfEmployees,IsConverted,ConvertedDate,ConvertedAccountId,ConvertedContactId,ConvertedOpportunityId,IsUnreadByOwner,LastReferencedDate,IndividualId,FinServ__CreatedFromLead__c,FinServ__Employer__c,FinServ__ConversionDateTime__c,FinServ__CreatedByMe__c,FinServ__ExpressedInterest__c,FinServ__Household__c,FinServ__PotentialValue__c,FinServ__ReferredByContact__c,FinServ__ReferrerScore__c,FinServ__RelatedAccount__cFROM Lead, error: Error: line 1:709 mismatched input '<EOF>' expecting FROM..
+[16:00:45.467] Execution of the command sfdmu:run has been finished. Exit code 2 (COMMAND_INITIALIZATION_ERROR).
+[16:00:45.469] Total time elapsed: 00h 00m 35s 768ms .
