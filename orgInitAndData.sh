@@ -35,9 +35,9 @@ sfdx force:user:permset:assign -n FSC_DataLoad_Custom
 #Sometimes order of delete may need to be changed/updated
 #sfdx force:apex:execute -f config/cleanup.apex
 
+#sfdx force:data:soql:query -q "select id,Name,AccountId from Account" -u FSCTrialOrg
+
 #data load
-#May get a prompt while loading: Say "y"
-#"yes" command can be used to reply to those prompts; https://www.computerhope.com/unix/yes.htm
 sfdx sfdmu:run --sourceusername csvfile --targetusername FSCADK2 -p data/sfdmu/ --noprompt
 #Send user password reset email
 sfdx force:apex:execute -f config/setup.apex
