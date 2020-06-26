@@ -1,0 +1,325 @@
+
+[15:06:15.281] {"Running version":"3.4.16"}
+
+[15:06:15.972] Connecting to FSCTrialOrg using SFDX CLI...
+[15:06:38.936] Successfully connected to FSCTrialOrg.
+[15:06:38.955] {"SOURCE":"FSCTrialOrg.","TARGET":"csvfile.","Package script":"/Users/jrattanpal/workspace/fsc-demo-pack/data/sfdmu/export.json."}
+
+[15:06:38.959] GETTING AND ANALYSING OBJECTS METADATA...
+[15:06:38.961] Processing the sObject Contact...
+[15:06:38.963] Getting metadata for Contact (SOURCE)
+[15:06:39.678][WARN] Field Contact.CleanStatus is missing in the Source.
+[15:06:39.680] Processing the sObject Account...
+[15:06:39.682] Getting metadata for Account (SOURCE)
+[15:06:40.453][WARN] Field Account.CleanStatus is missing in the Source.
+[15:06:40.456][WARN] Field Account.DunsNumber is missing in the Source.
+[15:06:40.459][WARN] Field Account.Tradestyle is missing in the Source.
+[15:06:40.463][WARN] Field Account.NaicsCode is missing in the Source.
+[15:06:40.466][WARN] Field Account.NaicsDesc is missing in the Source.
+[15:06:40.468][WARN] Field Account.YearStarted is missing in the Source.
+[15:06:40.470][WARN] Field Account.FinServ__ClaimsOnHouseholdPolicies__c is missing in the Source.
+[15:06:40.472][WARN] Field Account.FinServ__HouseholdPolicies__c is missing in the Source.
+[15:06:40.475][WARN] Field Account.FinServ__InsuranceCustomerSince__c is missing in the Source.
+[15:06:40.477][WARN] Field Account.FinServ__TotalClaimAmountPaid__c is missing in the Source.
+[15:06:40.480][WARN] Field Account.FinServ__TotalHouseholdPremiums__c is missing in the Source.
+[15:06:40.481] Processing the sObject Lead...
+[15:06:40.483] Getting metadata for Lead (SOURCE)
+[15:06:40.832][WARN] Field Lead.CleanStatus is missing in the Source.
+[15:06:40.835][WARN] Field Lead.CompanyDunsNumber is missing in the Source.
+[15:06:40.836] Processing the sObject AccountContactRelation...
+[15:06:40.838] Getting metadata for AccountContactRelation (SOURCE)
+[15:06:41.39] Processing the sObject FinServ__AccountAccountRelation__c...
+[15:06:41.42] Getting metadata for FinServ__AccountAccountRelation__c (SOURCE)
+[15:06:41.371] Processing the sObject FinServ__ReciprocalRole__c...
+[15:06:41.374] Getting metadata for FinServ__ReciprocalRole__c (SOURCE)
+[15:06:41.627] Processing the sObject FinServ__ContactContactRelation__c...
+[15:06:41.629] Getting metadata for FinServ__ContactContactRelation__c (SOURCE)
+[15:06:41.946] Processing the sObject Case...
+[15:06:41.948] Getting metadata for Case (SOURCE)
+[15:06:42.254][WARN] Field Case.RecordTypeId is missing in the Source.
+[15:06:42.257][WARN] Field Case.AssetId is missing in the Source.
+[15:06:42.259] Processing the sObject FinServ__Securities__c...
+[15:06:42.261] Getting metadata for FinServ__Securities__c (SOURCE)
+[15:06:42.534] Processing the sObject FinServ__FinancialGoal__c...
+[15:06:42.536] Getting metadata for FinServ__FinancialGoal__c (SOURCE)
+[15:06:42.819] Processing the sObject FinServ__FinancialAccount__c...
+[15:06:42.821] Getting metadata for FinServ__FinancialAccount__c (SOURCE)
+[15:06:43.206][WARN] Field FinServ__FinancialAccount__c.FinServ__AvailableCredit__c is missing in the Source.
+[15:06:43.210][WARN] Field FinServ__FinancialAccount__c.FinServ__CashLimit__c is missing in the Source.
+[15:06:43.213][WARN] Field FinServ__FinancialAccount__c.FinServ__InsurancePolicy__c is missing in the Source.
+[15:06:43.217][WARN] Field FinServ__FinancialAccount__c.FinServ__PaymentDueDate__c is missing in the Source.
+[15:06:43.219] Processing the sObject FinServ__FinancialHolding__c...
+[15:06:43.222] Getting metadata for FinServ__FinancialHolding__c (SOURCE)
+[15:06:43.481] Processing the sObject FinServ__FinancialAccountRole__c...
+[15:06:43.484] Getting metadata for FinServ__FinancialAccountRole__c (SOURCE)
+[15:06:43.728] Processing the sObject FinServ__AssetsAndLiabilities__c...
+[15:06:43.730] Getting metadata for FinServ__AssetsAndLiabilities__c (SOURCE)
+[15:06:44.283] Processing the sObject FinServ__Revenue__c...
+[15:06:44.286] Getting metadata for FinServ__Revenue__c (SOURCE)
+[15:06:44.522] Processing the sObject FinServ__UsePersonAccount__c...
+[15:06:44.524] Getting metadata for FinServ__UsePersonAccount__c (SOURCE)
+[15:06:44.757] Processing the sObject FinServ__UsePersonAccount__c...
+[15:06:44.762] Getting metadata for Organization (SOURCE)
+[15:06:45.120] Processing the sObject FinServ__Revenue__c...
+[15:06:45.123] Processing the sObject FinServ__AssetsAndLiabilities__c...
+[15:06:45.125] Processing the sObject FinServ__FinancialAccountRole__c...
+[15:06:45.127] Processing the sObject FinServ__FinancialHolding__c...
+[15:06:45.130] Processing the sObject FinServ__FinancialAccount__c...
+[15:06:45.158] Getting metadata for RecordType (SOURCE)
+[15:06:45.530] Getting metadata for FinServ__ChargesAndFees__c (SOURCE)
+[15:06:45.823] Getting metadata for Product2 (SOURCE)
+[15:06:46.80] Processing the sObject FinServ__FinancialGoal__c...
+[15:06:46.83] Processing the sObject FinServ__Securities__c...
+[15:06:46.85] Processing the sObject Case...
+[15:06:46.89] Getting metadata for BusinessMilestone (SOURCE)
+[15:06:46.349] Processing the sObject FinServ__ContactContactRelation__c...
+[15:06:46.354] Processing the sObject FinServ__ReciprocalRole__c...
+[15:06:46.357] Processing the sObject FinServ__AccountAccountRelation__c...
+[15:06:46.360] Processing the sObject AccountContactRelation...
+[15:06:46.362] Processing the sObject Lead...
+[15:06:46.373] Getting metadata for Opportunity (SOURCE)
+[15:06:46.708] Getting metadata for Individual (SOURCE)
+[15:06:47.5] Processing the sObject Account...
+[15:06:47.22] Processing the sObject Contact...
+
+[15:06:47.35] PREPARING DATA MIGRATION JOB...
+[15:06:47.37] Building migration strategy...
+[15:06:47.96] {"Order of objects to retrieve data":"RecordType; Account; Contact; Lead; AccountContactRelation; FinServ__ReciprocalRole__c; FinServ__AccountAccountRelation__c; FinServ__ContactContactRelation__c; FinServ__FinancialAccount__c; Case; FinServ__Securities__c; FinServ__FinancialGoal__c; FinServ__FinancialHolding__c; FinServ__FinancialAccountRole__c; FinServ__AssetsAndLiabilities__c; FinServ__Revenue__c; FinServ__UsePersonAccount__c; Individual; Opportunity; BusinessMilestone; Product2; FinServ__ChargesAndFees__c; Organization"}
+[15:06:47.97] {"Order of objects to update data":"RecordType; Individual; Opportunity; BusinessMilestone; Product2; FinServ__ChargesAndFees__c; Organization; Account; Contact; Lead; AccountContactRelation; FinServ__ReciprocalRole__c; FinServ__AccountAccountRelation__c; FinServ__ContactContactRelation__c; FinServ__FinancialAccount__c; Case; FinServ__Securities__c; FinServ__FinancialGoal__c; FinServ__FinancialHolding__c; FinServ__FinancialAccountRole__c; FinServ__AssetsAndLiabilities__c; FinServ__Revenue__c; FinServ__UsePersonAccount__c"}
+[15:06:47.100] Preparing has been finished.
+
+[15:06:47.104] GETTING THE TOTAL AMOUNT OF RECORDS LIMITED BY THE OBJECT'S SOQL QUERY...
+[15:06:47.295] {RecordType} Total amount of the SOURCE records: 23
+[15:06:47.462] {Individual} Total amount of the SOURCE records: 0
+[15:06:47.665] {Opportunity} Total amount of the SOURCE records: 6
+[15:06:47.857] {BusinessMilestone} Total amount of the SOURCE records: 10
+[15:06:48.23] {Product2} Total amount of the SOURCE records: 6
+[15:06:48.183] {FinServ__ChargesAndFees__c} Total amount of the SOURCE records: 0
+[15:06:48.366] {Organization} Total amount of the SOURCE records: 1
+[15:06:48.532] {Account} Total amount of the SOURCE records: 10
+[15:06:48.727] {Contact} Total amount of the SOURCE records: 7
+[15:06:48.886] {Lead} Total amount of the SOURCE records: 9
+[15:06:49.39] {AccountContactRelation} Total amount of the SOURCE records: 7
+[15:06:49.288] {FinServ__ReciprocalRole__c} Total amount of the SOURCE records: 16
+[15:06:49.438] {FinServ__AccountAccountRelation__c} Total amount of the SOURCE records: 0
+[15:06:49.680] {FinServ__ContactContactRelation__c} Total amount of the SOURCE records: 2
+[15:06:50.343] {FinServ__FinancialAccount__c} Total amount of the SOURCE records: 14
+[15:06:50.517] {Case} Total amount of the SOURCE records: 4
+[15:06:50.686] {FinServ__Securities__c} Total amount of the SOURCE records: 2
+[15:06:50.979] {FinServ__FinancialGoal__c} Total amount of the SOURCE records: 4
+[15:06:51.232] {FinServ__FinancialHolding__c} Total amount of the SOURCE records: 2
+[15:06:51.425] {FinServ__FinancialAccountRole__c} Total amount of the SOURCE records: 18
+[15:06:51.623] {FinServ__AssetsAndLiabilities__c} Total amount of the SOURCE records: 2
+[15:06:51.841] {FinServ__Revenue__c} Total amount of the SOURCE records: 4
+[15:06:52.39] {FinServ__UsePersonAccount__c} Total amount of the SOURCE records: 1
+
+[15:06:52.45] DELETING OLD DATA FROM THE TARGET...
+[15:06:52.49] {FinServ__UsePersonAccount__c} Nothing to delete.
+[15:06:52.51] {FinServ__Revenue__c} Nothing to delete.
+[15:06:52.53] {FinServ__AssetsAndLiabilities__c} Nothing to delete.
+[15:06:52.55] {FinServ__FinancialAccountRole__c} Nothing to delete.
+[15:06:52.56] {FinServ__FinancialHolding__c} Nothing to delete.
+[15:06:52.58] {FinServ__FinancialGoal__c} Nothing to delete.
+[15:06:52.59] {FinServ__Securities__c} Nothing to delete.
+[15:06:52.61] {Case} Nothing to delete.
+[15:06:52.62] {FinServ__FinancialAccount__c} Nothing to delete.
+[15:06:52.64] {FinServ__ContactContactRelation__c} Nothing to delete.
+[15:06:52.66] {FinServ__AccountAccountRelation__c} Nothing to delete.
+[15:06:52.68] {FinServ__ReciprocalRole__c} Nothing to delete.
+[15:06:52.70] {AccountContactRelation} Nothing to delete.
+[15:06:52.71] {Lead} Nothing to delete.
+[15:06:52.73] {Contact} Nothing to delete.
+[15:06:52.74] {Account} Nothing to delete.
+[15:06:52.76] {Organization} Nothing to delete.
+[15:06:52.78] {FinServ__ChargesAndFees__c} Nothing to delete.
+[15:06:52.79] {Product2} Nothing to delete.
+[15:06:52.81] {BusinessMilestone} Nothing to delete.
+[15:06:52.83] {Opportunity} Nothing to delete.
+[15:06:52.84] {Individual} Nothing to delete.
+[15:06:52.86] {RecordType} Nothing to delete.
+[15:06:52.88] Deleting old data from the Target was skipped.
+[15:06:52.92] Ready to process the data.
+
+[15:06:52.96] RETRIEVING THE DATA STEP 1...
+[15:06:52.99] {RecordType} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[15:06:52.101] {RecordType} Query string: SELECT Id, DeveloperName, SobjectType  FROM  RecordType WHERE (SobjectType IN ('Contact', 'Account', 'Lead', 'FinServ__FinancialAccount__c')) ORDER BY SobjectType ASC.
+[15:06:52.418] {RecordType} Retrieving the SOURCE data has been completed. Fetched 23 new records.
+[15:06:52.424] {Account} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[15:06:52.426] {Account} Query string: SELECT Id, RecordTypeId, Name, IsPersonAccount, IsDeleted, MasterRecordId, LastName, FirstName, Salutation, MiddleName, Suffix, Type, ParentId, BillingStreet, BillingCity, BillingState, BillingPostalCode, BillingCountry, BillingLatitude, BillingLongi... FROM  Account.
+[15:06:52.896] {Account} Retrieving the SOURCE data has been completed. Fetched 10 new records.
+[15:06:52.898] {Contact} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[15:06:52.899] {Contact} Query string: SELECT Id, RecordTypeId, Name, IsPersonAccount, AccountId, IsDeleted, MasterRecordId, LastName, FirstName, Salutation, MiddleName, Suffix, OtherStreet, OtherCity, OtherState, OtherPostalCode, OtherCountry, OtherLatitude, OtherLongitude, OtherGeocodeA... FROM  Contact.
+[15:06:53.211] {Contact} Retrieving the SOURCE data has been completed. Fetched 7 new records.
+[15:06:53.213] {Lead} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[15:06:53.215] {Lead} Query string: SELECT Id, RecordTypeId, Name, IsDeleted, MasterRecordId, LastName, FirstName, Salutation, MiddleName, Suffix, Title, Company, Street, City, State, PostalCode, Country, Latitude, Longitude, GeocodeAccuracy, Address, Phone, MobilePhone, Fax, Email, We... FROM  Lead.
+[15:06:53.501] {Lead} Retrieving the SOURCE data has been completed. Fetched 9 new records.
+[15:06:53.503] {AccountContactRelation} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[15:06:53.505] {AccountContactRelation} Query string: SELECT Id, $$AccountId$ContactId, AccountId, ContactId, Roles, IsDirect, IsActive, StartDate, EndDate, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, FinServ__Primary__c, FinServ__Rollups__c, FinServ__SourceSystemId__c, FinServ__IncludeInG... FROM  AccountContactRelation.
+[15:06:53.717] {AccountContactRelation} Retrieving the SOURCE data has been completed. Fetched 7 new records.
+[15:06:53.720] {FinServ__ReciprocalRole__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[15:06:53.721] {FinServ__ReciprocalRole__c} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, FinServ__CreateInverseRole__c, FinServ__InverseRelationship__c, FinServ__InverseRole__c, FinServ__RelationshipType__c, FinServ__SourceSyste... FROM  FinServ__ReciprocalRole__c.
+[15:06:53.994] {FinServ__ReciprocalRole__c} Retrieving the SOURCE data has been completed. Fetched 16 new records.
+[15:06:53.996] {FinServ__AccountAccountRelation__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[15:06:53.998] {FinServ__AccountAccountRelation__c} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, FinServ__Account__c, FinServ__Active__c, FinServ__EndDate__c, FinServ__ExternalId__c, FinServ__InverseRelationship__c, FinServ__RelatedAccount__c, FinServ__Role__c, FinServ__S... FROM  FinServ__AccountAccountRelation__c.
+[15:06:54.199] {FinServ__AccountAccountRelation__c} Retrieving the SOURCE data has been completed. Fetched 0 new records.
+[15:06:54.201] {FinServ__ContactContactRelation__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[15:06:54.203] {FinServ__ContactContactRelation__c} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, FinServ__Active__c, FinServ__Contact__c, FinServ__EndDate__c, FinServ__ExternalId__c, FinServ__InverseRelationship__c, FinServ__RelatedContact__c, FinServ__Role__c, FinServ__S... FROM  FinServ__ContactContactRelation__c.
+[15:06:54.391] {FinServ__ContactContactRelation__c} Retrieving the SOURCE data has been completed. Fetched 2 new records.
+[15:06:54.395] {FinServ__FinancialAccount__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[15:06:54.396] {FinServ__FinancialAccount__c} Query string: SELECT Id, RecordTypeId, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastActivityDate, LastViewedDate, LastReferencedDate, FinServ__Address1__c, FinServ__Address2__c, FinServ__ApplicationDate__c, FinServ__AssetRebalance__c, FinSer... FROM  FinServ__FinancialAccount__c.
+[15:06:54.668] {FinServ__FinancialAccount__c} Retrieving the SOURCE data has been completed. Fetched 14 new records.
+[15:06:54.671] {Case} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[15:06:54.674] {Case} Query string: SELECT Id, Subject, IsDeleted, MasterRecordId, CaseNumber, ContactId, AccountId, SourceId, ParentId, SuppliedName, SuppliedEmail, SuppliedPhone, SuppliedCompany, Type, Status, Reason, Origin, Priority, Description, IsClosed, ClosedDate, IsEscalated, ... FROM  Case.
+[15:06:54.888] {Case} Retrieving the SOURCE data has been completed. Fetched 4 new records.
+[15:06:54.890] {FinServ__Securities__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[15:06:54.891] {FinServ__Securities__c} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, FinServ__CUSIP__c, FinServ__Exchange__c, FinServ__LastUpdated__c, FinServ__Price__c, FinServ__SecuritiesName__c, FinServ__SecurityId__c, Fi... FROM  FinServ__Securities__c.
+[15:06:55.63] {FinServ__Securities__c} Retrieving the SOURCE data has been completed. Fetched 2 new records.
+[15:06:55.65] {FinServ__FinancialGoal__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[15:06:55.68] {FinServ__FinancialGoal__c} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastActivityDate, LastViewedDate, LastReferencedDate, FinServ__ActualValue__c, FinServ__CompletionDate__c, FinServ__Description__c, FinServ__Household__c, FinServ__InitialValu... FROM  FinServ__FinancialGoal__c.
+[15:06:55.253] {FinServ__FinancialGoal__c} Retrieving the SOURCE data has been completed. Fetched 4 new records.
+[15:06:55.257] {FinServ__FinancialHolding__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[15:06:55.259] {FinServ__FinancialHolding__c} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastActivityDate, LastViewedDate, LastReferencedDate, FinServ__FinancialAccount__c, FinServ__AssetCategoryName__c, FinServ__AssetCategory__c, FinServ__AssetClass__c, FinServ__... FROM  FinServ__FinancialHolding__c.
+[15:06:55.516] {FinServ__FinancialHolding__c} Retrieving the SOURCE data has been completed. Fetched 2 new records.
+[15:06:55.518] {FinServ__FinancialAccountRole__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[15:06:55.521] {FinServ__FinancialAccountRole__c} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, FinServ__FinancialAccount__c, FinServ__Active__c, FinServ__Editable__c, FinServ__EndDate__c, FinServ__RelatedAccount__c, FinServ__RelatedContact__c, FinServ__Role__c, FinServ_... FROM  FinServ__FinancialAccountRole__c.
+[15:06:55.892] {FinServ__FinancialAccountRole__c} Retrieving the SOURCE data has been completed. Fetched 18 new records.
+[15:06:55.896] {FinServ__AssetsAndLiabilities__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[15:06:55.899] {FinServ__AssetsAndLiabilities__c} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastActivityDate, LastViewedDate, LastReferencedDate, FinServ__Amount__c, FinServ__AssetsAndLiabilitiesSource__c, FinServ__AssetsAndLiabilitiesType__c, FinServ__Description__c... FROM  FinServ__AssetsAndLiabilities__c.
+[15:06:56.109] {FinServ__AssetsAndLiabilities__c} Retrieving the SOURCE data has been completed. Fetched 2 new records.
+[15:06:56.112] {FinServ__Revenue__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[15:06:56.115] {FinServ__Revenue__c} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, FinServ__Account__c, FinServ__Amount__c, FinServ__Date__c, FinServ__FinancialAccount__c, FinServ__SourceSystemId__c, FinServ__SubType__c, F... FROM  FinServ__Revenue__c.
+[15:06:56.300] {FinServ__Revenue__c} Retrieving the SOURCE data has been completed. Fetched 4 new records.
+[15:06:56.302] {FinServ__UsePersonAccount__c} Retrieving the SOURCE data from Org (STEP 1: all records)...
+[15:06:56.304] {FinServ__UsePersonAccount__c} Query string: SELECT Id, Name, IsDeleted, SetupOwnerId, CreatedDate, LastModifiedDate, SystemModstamp, FinServ__Enable__c, SetupOwner.Name  FROM  FinServ__UsePersonAccount__c.
+[15:06:56.465] {FinServ__UsePersonAccount__c} Retrieving the SOURCE data has been completed. Fetched 1 new records.
+[15:06:56.468] Retrieving the data STEP 1 has been completed.
+
+[15:06:56.474] RETRIEVING THE DATA STEP 2...
+[15:06:56.476] PASS 1
+[15:06:56.479] =============
+[15:06:56.482] No records
+
+[15:06:56.485] PASS 2
+[15:06:56.488] =============
+[15:06:56.491] No records
+
+[15:06:56.495] PASS 3
+[15:06:56.497] =============
+[15:06:56.502] {Opportunity} Retrieving the SOURCE data from Org (STEP 1: filtered records)...
+[15:06:56.505] {Opportunity} Query string: SELECT Id, Name  FROM  Opportunity WHERE Id IN ('0063h000007uQOHAA2', '0063h000007uQOGAA2').
+[15:06:56.763] {Opportunity} Retrieving the SOURCE data has been completed. Fetched 2 new records.
+[15:06:56.766] {Organization} Retrieving the SOURCE data from Org (STEP 1: filtered records)...
+[15:06:56.768] {Organization} Query string: SELECT Id, Name  FROM  Organization WHERE Id IN ('00D3h00000576pHEAQ').
+[15:06:57.9] {Organization} Retrieving the SOURCE data has been completed. Fetched 1 new records.
+
+[15:06:57.13] PASS 4
+[15:06:57.15] =============
+[15:06:57.18] No records
+
+[15:06:57.25] TARGET
+[15:06:57.26] =============
+[15:06:57.29] No records
+[15:06:57.31] Retrieving the data STEP 2 has been completed.
+
+[15:06:57.37] DATA RETRIEVING SUMMARY
+[15:06:57.38] {RecordType} Total retrieved within all steps (source/target): 23/0 records.
+[15:06:57.40] {Account} Total retrieved within all steps (source/target): 10/0 records.
+[15:06:57.45] {Contact} Total retrieved within all steps (source/target): 7/0 records.
+[15:06:57.47] {Lead} Total retrieved within all steps (source/target): 9/0 records.
+[15:06:57.49] {AccountContactRelation} Total retrieved within all steps (source/target): 7/0 records.
+[15:06:57.51] {FinServ__ReciprocalRole__c} Total retrieved within all steps (source/target): 16/0 records.
+[15:06:57.54] {FinServ__AccountAccountRelation__c} Total retrieved within all steps (source/target): 0/0 records.
+[15:06:57.56] {FinServ__ContactContactRelation__c} Total retrieved within all steps (source/target): 2/0 records.
+[15:06:57.59] {FinServ__FinancialAccount__c} Total retrieved within all steps (source/target): 14/0 records.
+[15:06:57.61] {Case} Total retrieved within all steps (source/target): 4/0 records.
+[15:06:57.64] {FinServ__Securities__c} Total retrieved within all steps (source/target): 2/0 records.
+[15:06:57.66] {FinServ__FinancialGoal__c} Total retrieved within all steps (source/target): 4/0 records.
+[15:06:57.68] {FinServ__FinancialHolding__c} Total retrieved within all steps (source/target): 2/0 records.
+[15:06:57.71] {FinServ__FinancialAccountRole__c} Total retrieved within all steps (source/target): 18/0 records.
+[15:06:57.73] {FinServ__AssetsAndLiabilities__c} Total retrieved within all steps (source/target): 2/0 records.
+[15:06:57.76] {FinServ__Revenue__c} Total retrieved within all steps (source/target): 4/0 records.
+[15:06:57.78] {FinServ__UsePersonAccount__c} Total retrieved within all steps (source/target): 1/0 records.
+[15:06:57.81] {Individual} Total retrieved within all steps (source/target): 0/0 records.
+[15:06:57.83] {Opportunity} Total retrieved within all steps (source/target): 2/0 records.
+[15:06:57.85] {BusinessMilestone} Total retrieved within all steps (source/target): 0/0 records.
+[15:06:57.91] {Product2} Total retrieved within all steps (source/target): 0/0 records.
+[15:06:57.92] {FinServ__ChargesAndFees__c} Total retrieved within all steps (source/target): 0/0 records.
+[15:06:57.94] {Organization} Total retrieved within all steps (source/target): 1/0 records.
+
+[15:06:57.100] UPDATING THE TARGET STEP 1...
+[15:06:57.102] {RecordType} Writing to the file /Users/jrattanpal/workspace/fsc-demo-pack/data/sfdmu/RecordType.csv.
+[15:06:57.114] {RecordType} Updating the Target has been completed. Processed 23 records.
+[15:06:57.116] {Individual} Writing to the file /Users/jrattanpal/workspace/fsc-demo-pack/data/sfdmu/Individual.csv.
+[15:06:57.119] {Opportunity} Writing to the file /Users/jrattanpal/workspace/fsc-demo-pack/data/sfdmu/Opportunity.csv.
+[15:06:57.123] {Opportunity} Updating the Target has been completed. Processed 2 records.
+[15:06:57.126] {BusinessMilestone} Writing to the file /Users/jrattanpal/workspace/fsc-demo-pack/data/sfdmu/BusinessMilestone.csv.
+[15:06:57.129] {Product2} Writing to the file /Users/jrattanpal/workspace/fsc-demo-pack/data/sfdmu/Product2.csv.
+[15:06:57.133] {FinServ__ChargesAndFees__c} Writing to the file /Users/jrattanpal/workspace/fsc-demo-pack/data/sfdmu/FinServ__ChargesAndFees__c.csv.
+[15:06:57.137] {Organization} Writing to the file /Users/jrattanpal/workspace/fsc-demo-pack/data/sfdmu/Organization.csv.
+[15:06:57.143] {Organization} Updating the Target has been completed. Processed 1 records.
+[15:06:57.146] {Account} Writing to the file /Users/jrattanpal/workspace/fsc-demo-pack/data/sfdmu/Account.csv.
+[15:06:57.155] {Account} Updating the Target has been completed. Processed 10 records.
+[15:06:57.157] {Contact} Writing to the file /Users/jrattanpal/workspace/fsc-demo-pack/data/sfdmu/Contact.csv.
+[15:06:57.165] {Contact} Updating the Target has been completed. Processed 7 records.
+[15:06:57.169] {Lead} Writing to the file /Users/jrattanpal/workspace/fsc-demo-pack/data/sfdmu/Lead.csv.
+[15:06:57.177] {Lead} Updating the Target has been completed. Processed 9 records.
+[15:06:57.180] {AccountContactRelation} Writing to the file /Users/jrattanpal/workspace/fsc-demo-pack/data/sfdmu/AccountContactRelation.csv.
+[15:06:57.185] {AccountContactRelation} Updating the Target has been completed. Processed 7 records.
+[15:06:57.187] {FinServ__ReciprocalRole__c} Writing to the file /Users/jrattanpal/workspace/fsc-demo-pack/data/sfdmu/FinServ__ReciprocalRole__c.csv.
+[15:06:57.199] {FinServ__ReciprocalRole__c} Updating the Target has been completed. Processed 16 records.
+[15:06:57.201] {FinServ__AccountAccountRelation__c} Writing to the file /Users/jrattanpal/workspace/fsc-demo-pack/data/sfdmu/FinServ__AccountAccountRelation__c.csv.
+[15:06:57.208] {FinServ__ContactContactRelation__c} Writing to the file /Users/jrattanpal/workspace/fsc-demo-pack/data/sfdmu/FinServ__ContactContactRelation__c.csv.
+[15:06:57.217] {FinServ__ContactContactRelation__c} Updating the Target has been completed. Processed 2 records.
+[15:06:57.218] {FinServ__FinancialAccount__c} Writing to the file /Users/jrattanpal/workspace/fsc-demo-pack/data/sfdmu/FinServ__FinancialAccount__c.csv.
+[15:06:57.227] {FinServ__FinancialAccount__c} Updating the Target has been completed. Processed 14 records.
+[15:06:57.231] {Case} Writing to the file /Users/jrattanpal/workspace/fsc-demo-pack/data/sfdmu/Case.csv.
+[15:06:57.238] {Case} Updating the Target has been completed. Processed 4 records.
+[15:06:57.242] {FinServ__Securities__c} Writing to the file /Users/jrattanpal/workspace/fsc-demo-pack/data/sfdmu/FinServ__Securities__c.csv.
+[15:06:57.255] {FinServ__Securities__c} Updating the Target has been completed. Processed 2 records.
+[15:06:57.260] {FinServ__FinancialGoal__c} Writing to the file /Users/jrattanpal/workspace/fsc-demo-pack/data/sfdmu/FinServ__FinancialGoal__c.csv.
+[15:06:57.266] {FinServ__FinancialGoal__c} Updating the Target has been completed. Processed 4 records.
+[15:06:57.269] {FinServ__FinancialHolding__c} Writing to the file /Users/jrattanpal/workspace/fsc-demo-pack/data/sfdmu/FinServ__FinancialHolding__c.csv.
+[15:06:57.277] {FinServ__FinancialHolding__c} Updating the Target has been completed. Processed 2 records.
+[15:06:57.278] {FinServ__FinancialAccountRole__c} Writing to the file /Users/jrattanpal/workspace/fsc-demo-pack/data/sfdmu/FinServ__FinancialAccountRole__c.csv.
+[15:06:57.282] {FinServ__FinancialAccountRole__c} Updating the Target has been completed. Processed 18 records.
+[15:06:57.284] {FinServ__AssetsAndLiabilities__c} Writing to the file /Users/jrattanpal/workspace/fsc-demo-pack/data/sfdmu/FinServ__AssetsAndLiabilities__c.csv.
+[15:06:57.287] {FinServ__AssetsAndLiabilities__c} Updating the Target has been completed. Processed 2 records.
+[15:06:57.294] {FinServ__Revenue__c} Writing to the file /Users/jrattanpal/workspace/fsc-demo-pack/data/sfdmu/FinServ__Revenue__c.csv.
+[15:06:57.299] {FinServ__Revenue__c} Updating the Target has been completed. Processed 4 records.
+[15:06:57.301] {FinServ__UsePersonAccount__c} Writing to the file /Users/jrattanpal/workspace/fsc-demo-pack/data/sfdmu/FinServ__UsePersonAccount__c.csv.
+[15:06:57.304] {FinServ__UsePersonAccount__c} Updating the Target has been completed. Processed 1 records.
+[15:06:57.310] Updating the Target (STEP 1) has been completed. Total processed 128 records.
+
+[15:06:57.314] UPDATING THE TARGET STEP 2...
+[15:06:57.316] Nothing was updated
+
+[15:06:57.320] DATA PROCESSING SUMMARY
+[15:06:57.415] {RecordType} Total processed within all steps (Insert + Update): 23 records
+[15:06:57.416] {Account} Total processed within all steps (Insert + Update): 10 records
+[15:06:57.422] {Contact} Total processed within all steps (Insert + Update): 7 records
+[15:06:57.425] {Lead} Total processed within all steps (Insert + Update): 9 records
+[15:06:57.428] {AccountContactRelation} Total processed within all steps (Insert + Update): 7 records
+[15:06:57.429] {FinServ__ReciprocalRole__c} Total processed within all steps (Insert + Update): 16 records
+[15:06:57.435] {FinServ__AccountAccountRelation__c} Total processed within all steps (Insert + Update): 0 records
+[15:06:57.437] {FinServ__ContactContactRelation__c} Total processed within all steps (Insert + Update): 2 records
+[15:06:57.441] {FinServ__FinancialAccount__c} Total processed within all steps (Insert + Update): 14 records
+[15:06:57.443] {Case} Total processed within all steps (Insert + Update): 4 records
+[15:06:57.445] {FinServ__Securities__c} Total processed within all steps (Insert + Update): 2 records
+[15:06:57.456] {FinServ__FinancialGoal__c} Total processed within all steps (Insert + Update): 4 records
+[15:06:57.460] {FinServ__FinancialHolding__c} Total processed within all steps (Insert + Update): 2 records
+[15:06:57.462] {FinServ__FinancialAccountRole__c} Total processed within all steps (Insert + Update): 18 records
+[15:06:57.465] {FinServ__AssetsAndLiabilities__c} Total processed within all steps (Insert + Update): 2 records
+[15:06:57.468] {FinServ__Revenue__c} Total processed within all steps (Insert + Update): 4 records
+[15:06:57.470] {FinServ__UsePersonAccount__c} Total processed within all steps (Insert + Update): 1 records
+[15:06:57.473] {Individual} Total processed within all steps (Insert + Update): 0 records
+[15:06:57.477] {Opportunity} Total processed within all steps (Insert + Update): 2 records
+[15:06:57.479] {BusinessMilestone} Total processed within all steps (Insert + Update): 0 records
+[15:06:57.483] {Product2} Total processed within all steps (Insert + Update): 0 records
+[15:06:57.487] {FinServ__ChargesAndFees__c} Total processed within all steps (Insert + Update): 0 records
+[15:06:57.490] {Organization} Total processed within all steps (Insert + Update): 1 records
+
+[15:06:57.528] Writing to /Users/jrattanpal/workspace/fsc-demo-pack/data/sfdmu/MissingParentRecordsReport.csv...
+
+[15:06:57.555] Command succeeded.
+[15:06:57.560] Execution of the command sfdmu:run has been finished. Exit code 0 (SUCCESS).
+[15:06:57.565] Total time elapsed: 00h 00m 42s 293ms .
