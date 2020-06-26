@@ -31,12 +31,18 @@ sfdx force:user:permset:assign -n FSC_DataLoad_Custom
 #Data Extract from existing org; if needed
 #sfdx sfdmu:run --sourceusername FSCTrialOrg --targetusername csvfile -p data/sfdmu/
 
+#Cleanup an existing org
+#Sometimes order of delete may need to be changed/updated
+#sfdx force:apex:execute -f config/cleanup.apex
+
 #data load
 #May get a prompt while loading: Say "y"
 #"yes" command can be used to reply to those prompts; https://www.computerhope.com/unix/yes.htm
-yes | sfdx sfdmu:run --sourceusername csvfile --targetusername FSCADK2 -p data/sfdmu/
+sfdx sfdmu:run --sourceusername csvfile --targetusername FSCADK2 -p data/sfdmu/ --noprompt
 #Send user password reset email
 sfdx force:apex:execute -f config/setup.apex
+
+
 
 
 sfdx force:org:open
