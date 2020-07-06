@@ -1,59 +1,47 @@
 {
     "objects": [
-
         {
             "query": "SELECT Id,RecordTypeId,Name,readonly_false FROM Contact",
             "operation": "Upsert",
             "externalId": "Name",
-            "deleteOldData": false,
-            "excludedFields": ["CleanStatus"],
-            "master": false
+            "excludedFields": ["CleanStatus"]
         },
         {
             "query": "SELECT Id,RecordTypeId,Name,readonly_false FROM Account",
             "operation": "Upsert",
             "externalId": "Name",
-            "deleteOldData": false,
-            "master": true,
             "excludedFields": ["CleanStatus","DunsNumber","Tradestyle","NaicsCode","NaicsDesc","YearStarted","FinServ__ClaimsOnHouseholdPolicies__c","FinServ__HouseholdPolicies__c","FinServ__InsuranceCustomerSince__c","FinServ__TotalClaimAmountPaid__c","FinServ__TotalHouseholdPremiums__c"]
         },
         {
             "query": "SELECT all FROM AccountContactRelation",
             "operation": "Upsert",
-            "externalId": "AccountId;ContactId",
-            "deleteOldData": false,
-            "master": false
+            "externalId": "AccountId;ContactId"
         },
         {
             "query": "SELECT all FROM FinServ__AccountAccountRelation__c",
             "operation": "Upsert",
-            "externalId": "Name",
-            "deleteOldData": false
+            "externalId": "Name"
         },
         {
             "query": "SELECT all FROM FinServ__ReciprocalRole__c",
             "operation": "Upsert",
-            "externalId": "Name",
-            "deleteOldData": false
+            "externalId": "Name"
         },
         {
             "query": "SELECT all FROM FinServ__ContactContactRelation__c",
             "operation": "Upsert",
-            "externalId": "Name",
-            "deleteOldData": false
+            "externalId": "Name"
         },
         {
             "query": "SELECT Id,RecordTypeId,Name,readonly_false FROM FinServ__FinancialAccount__c",
             "operation": "Upsert",
             "externalId": "Name",
-            "deleteOldData": false,
             "excludedFields": ["FinServ__AvailableCredit__c","FinServ__CashLimit__c","FinServ__InsurancePolicy__c","FinServ__PaymentDueDate__c"]
         },
         {
             "query": "SELECT all FROM FinServ__UsePersonAccount__c",
             "operation": "Upsert",
-            "externalId": "Name",
-            "deleteOldData": false
+            "externalId": "Name"
         }
     ]
 }
