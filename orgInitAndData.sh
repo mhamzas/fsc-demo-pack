@@ -27,7 +27,7 @@ sfdx force:user:permset:assign -n FinancialServicesCloudStandard
 sfdx force:user:permset:assign -n FSC_DataLoad_Custom
 
 
-#SFDX DMU plugin: https://github.com/forcedotcom/SFDX-Data-Move-Utility/wiki
+#SFDX DMU plugin: https://help.sfdmu.com/hc/en-us
 #Data Extract from existing org; if needed
 #sfdx sfdmu:run --sourceusername FSCTrialOrg --targetusername csvfile -p data/sfdmu/
 

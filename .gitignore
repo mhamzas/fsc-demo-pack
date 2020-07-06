@@ -22,3 +22,5 @@ robot/fsc-demo-pack/results/
 # Misc
 .DS_Store
 
+export copy*
+
