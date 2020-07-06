@@ -70,13 +70,13 @@ sfdx force:org:open
 #Delete [select id from FinServ__FinancialAccount__c];
 #Delete [select id from Case];
 #Delete [select id from Opportunity];
-#Delete [select id from  FinServ__ReciprocalRole__c];
-#Delete [select id from FinServ__AccountAccountRelation__c];
-#Delete [select id from FinServ__ContactContactRelation__c];
 
 
 #Delete [select id from Claim];
 #Delete [select id from InsurancePolicy];
 #Delete [select id from Lead];
-#Delete [select id from Contact];
 #Delete [select id from Account];
+#Delete [select id from Contact];
+#Delete [select id from FinServ__AccountAccountRelation__c];
+#Delete [select id from FinServ__ContactContactRelation__c];
+#Delete [select id from  FinServ__ReciprocalRole__c];
