@@ -1,12 +1,20 @@
 
+Delete [select id from FinServ__BillingStatement__c];
+Delete [select id from FinServ__Employment__c];
+Delete [select id from FinServ__AssetsAndLiabilities__c];
+Delete [select id from FinServ__Card__c];
+Delete [select id from FinServ__Alert__c];
+Delete [select id from FinServ__LifeEvent__c];
+Delete [select id from FinServ__Revenue__c];
+Delete [select id from FinServ__FinancialAccountTransaction__c];
+Delete [select id from FinServ__PolicyPaymentMethod__c];
+
+
 Delete [select id from FinServ__Securities__c];
 Delete [select id from FinServ__FinancialGoal__c];
 Delete [select id from FinServ__IdentificationDocument__c];
 Delete [select id from FinServ__Education__c];
 Delete [select id from FinServ__FinancialHolding__c];
-Delete [select id from FinServ__AssetsAndLiabilities__c];
-	
-Delete [select id from FinServ__Revenue__c];
 Delete [select id from FinServ__FinancialAccountRole__c where FinServ__Active__c =false];
 Delete [select id from FinServ__ChargesAndFees__c];
 Delete [select id from FinServ__FinancialAccount__c];
@@ -19,8 +27,6 @@ Delete [select id from InsurancePolicy];
 Delete [select id from Lead];
 Delete [select id from Account];
 Delete [select id from Contact];
-
-
-Delete [select id from FinServ__ContactContactRelation__c];
 Delete [select id from FinServ__AccountAccountRelation__c];
+Delete [select id from FinServ__ContactContactRelation__c];
 Delete [select id from  FinServ__ReciprocalRole__c];

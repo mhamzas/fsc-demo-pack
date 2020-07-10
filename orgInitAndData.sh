@@ -37,6 +37,8 @@ sfdx force:user:permset:assign -n FSC_DataLoad_Custom
 
 #sfdx force:data:soql:query -q "select id,Name,AccountId from Account" -u FSCTrialOrg
 
+#Cleanup before running import (if needeD)
+#sfdx force:apex:execute -f config/cleanup.apex
 #data load
 sfdx sfdmu:run --sourceusername csvfile --targetusername FSCADK2 -p data/sfdmu/ --noprompt
 #Send user password reset email
