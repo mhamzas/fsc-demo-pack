@@ -12,9 +12,9 @@ You can run orgInit.sh for above settings.
 
 If you are intersted in sample data too then we can have created some data load using a new plugin: https://github.com/forcedotcom/SFDX-Data-Move-Utility/wiki.
 
-If interested, you can run orgInitAndData.sh for an extra command of data (or you can run it manually). Currently, you get some promots where you need to answer "y" . We have an open feature request with the developer to change default option to "y" (or allow us to change default option).
+If interested, you can run dataLoad.sh (after running orgInit.sh). This will export data from CSV files to the org.
 
-Data is stored in CSV files in https://github.com/Vchalem/fsc-demo-pack/tree/DataLoad/data/sfdmu. Data was extracted from another org and will be imported using https://github.com/Vchalem/fsc-demo-pack/blob/DataLoad/data/sfdmu/export.json.
+Data is stored in CSV files in https://github.com/Vchalem/fsc-demo-pack/tree/master/data/sfdmu. Data was extracted from another org and will be imported using https://github.com/Vchalem/fsc-demo-pack/tree/master/data/sfdmu/export.json.
 
 You can read more options for that plugin at plugin's Wiki page.
 
