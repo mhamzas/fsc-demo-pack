@@ -23,7 +23,7 @@
             "externalId": "Name"
         },
         {
-            "query": "SELECT all FROM FinServ__ReciprocalRole__c",
+            "query": "SELECT Id, RecordTypeId, all FROM FinServ__ReciprocalRole__c",
             "operation": "Upsert",
             "externalId": "Name"
         },
