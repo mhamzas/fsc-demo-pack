@@ -1,0 +1,46 @@
+{
+    "objects": [
+        {
+            "query": "SELECT all FROM Contact",
+            "operation": "Upsert",
+            "externalId": "Name",
+            "excludedFields": ["CleanStatus"]
+        },
+        {
+            "query": "SELECT all FROM Account",
+            "operation": "Upsert",
+            "externalId": "Name",
+            "excludedFields": ["CleanStatus","DunsNumber","Tradestyle","NaicsCode","NaicsDesc","YearStarted","FinServ__ClaimsOnHouseholdPolicies__c","FinServ__HouseholdPolicies__c","FinServ__InsuranceCustomerSince__c","FinServ__TotalClaimAmountPaid__c","FinServ__TotalHouseholdPremiums__c"]
+        },
+        {
+            "query": "SELECT all FROM Opportunity",
+            "operation": "Upsert",
+            "externalId": "AccountId"
+        },
+        {
+            "query": "SELECT all FROM ResidentialLoanApplication",
+            "operation": "Upsert",
+            "externalId": "AccountId"
+        },
+        {
+            "query": "SELECT all FROM LoanApplicationProperty",
+            "operation": "Upsert",
+            "externalId": "LoanApplicationId"
+        },
+        {
+            "query": "SELECT all FROM LoanApplicantAddress",
+            "operation": "Upsert",
+            "externalId": ["LoanApplicationId","LoanApplicantId"]
+        },
+        {
+            "query": "SELECT all FROM LoanApplicantEmployment",
+            "operation": "Upsert",
+            "externalId": ["LoanApplicationId","LoanApplicantId"]
+        },
+        {
+            "query": "SELECT all FROM LoanApplicant",
+            "operation": "Upsert",
+            "externalId": "LoanApplicationId"
+        }
+    ]
+}
