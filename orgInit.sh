@@ -4,7 +4,7 @@
 sfdx force:org:create -f config/project-scratch-def.json -a FSCADK2 --setdefaultusername -d 7
 
 #pckg installs
-sfdx force:package:install --package 04t1E000000cmtN -w 20 
+sfdx force:package:install --package 04t1E000000jb9R -w 20 
 #FSC Extn
 #Has all fieldsets for Lightning pages like Financial Account tab on Account
 sfdx force:package:install --package 04t1E000001Iql5 -w 20
