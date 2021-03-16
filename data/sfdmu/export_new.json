@@ -15,7 +15,8 @@
         {
             "query": "SELECT all FROM Opportunity",
             "operation": "Upsert",
-            "externalId": "AccountId"
+            "externalId": "AccountId",
+			"excludedFields": ["ContactId","Contact.Name"]
         },
         {
             "query": "SELECT all FROM ResidentialLoanApplication",
@@ -30,12 +31,12 @@
         {
             "query": "SELECT all FROM LoanApplicantAddress",
             "operation": "Upsert",
-            "externalId": ["LoanApplicationId","LoanApplicantId"]
+            "externalId": "LoanApplicationId;LoanApplicantId"
         },
         {
             "query": "SELECT all FROM LoanApplicantEmployment",
             "operation": "Upsert",
-            "externalId": ["LoanApplicationId","LoanApplicantId"]
+            "externalId": "LoanApplicationId;LoanApplicantId"
         },
         {
             "query": "SELECT all FROM LoanApplicant",
